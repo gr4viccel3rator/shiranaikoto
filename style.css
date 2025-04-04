@@ -71,7 +71,8 @@ body {
 .bl3 h3 {
 	color: #051F20;
 	font-size: 33px;
-	font-family: "Rubik", sans-serif; 
+	font-family: "Rubik", sans-serif;
+	font-weight: 800;
 	padding-bottom: 1rem;
 }
 
