@@ -91,9 +91,8 @@ body {
 	transition: 0.5s;
 }
 
-.bl3 h3:hover::after {
+.bl3:hover h3::after {
 	width: 65%;
-
 }
 
 .text-content {
@@ -136,7 +135,11 @@ body {
 	}
 	.main_content img {
 		width: 80%;
-		height: 40vh;
+		height: 33.33vh;
+	}
+	.row {
+		border-bottom: 2px solid;
+		border-color: #045a12;
 	}
 
 }
@@ -173,6 +176,18 @@ body {
 	background-image: linear-gradient(#cfe4d4, #7bac8a);
 	color:#458d5b
 }
+
+.main_content a {
+	color: #023511;
+	text-decoration: none;
+	transition: all 0.2s ease;
+	font-weight: bolder;
+}
+
+.main_content a:hover {
+	padding-left: 0.2rem;
+	text-decoration: underline;
+}
 /* footer */
 
 .footer {
@@ -189,7 +204,7 @@ body {
 
 .footer-col p {
 	text-indent: 1.2rem;
-	transition: all 0.25s ease;
+	transition: all 0.2s ease; 
 }
 
 .footer-col p:hover {
@@ -213,10 +228,11 @@ footer {
 	padding-left: 1rem;
 }
 
-a.gitlink {
+.footer a {
 	color:rgba(36, 209, 17, 0.349)
 }
-a.gitlink:hover {
+
+.footer a:hover {
 	font-weight: bold;
 }
 
